@@ -22,7 +22,7 @@ document.addEventListener('DOMContentLoaded', function () {
     // Event listener for download button
     downloadButton.addEventListener('click', function () {
         try {
-            const videoUrl = 'pictures/20240705_201721.mp4'; // Replace with the actual path to your video file
+            const videoUrl = 'https://drive.google.com/uc?id=1D9Uctux230abZ_IM9nQGh2CpU5gjyNdw'; // Replace with the actual path to your video file
             const a = document.createElement('a');
             a.href = videoUrl;
             a.download = 'video.mp4'; // Set the file name for the download
